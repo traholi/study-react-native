@@ -1,0 +1,12 @@
+{
+  "files.exclude": {},
+  "eslint.enable": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.run": "onSave",
+  "git.openRepositoryInParentFolders": "always",
+  "cSpell.words": []
+}
