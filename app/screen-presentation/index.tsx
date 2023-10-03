@@ -12,6 +12,32 @@ const Index: React.FC = () => {
         title="open modal"
         onPress={() => router.push("/screen-presentation/modal")}
       />
+      <Button
+        title="open contained modal"
+        onPress={() => router.push("/screen-presentation/containedModal")}
+      />
+      <Button
+        title="open form sheet"
+        onPress={() => router.push("/screen-presentation/formSheet")}
+      />
+      <Button
+        title="open card"
+        onPress={() => router.push("/screen-presentation/card")}
+      />
+      <Button
+        title="open contained transparent modal"
+        onPress={() =>
+          router.push("/screen-presentation/containedTransparentModal")
+        }
+      />
+      <Button
+        title="open contained full screen modal"
+        onPress={() => router.push("/screen-presentation/fullScreenModal")}
+      />
+      <Button
+        title="open contained transparent modal"
+        onPress={() => router.push("/screen-presentation/transparentModal")}
+      />
     </Center>
   );
 };
