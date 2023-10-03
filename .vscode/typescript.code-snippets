@@ -1,0 +1,23 @@
+{
+  "const component": {
+    "scope": "typescriptreact",
+    "prefix": "cc",
+    "body": [
+      "interface Props {",
+      "}",
+      "",
+      "const $TM_FILENAME_BASE:React.FC = () => {",
+      "",
+      "  return (",
+      "    <>",
+      "       $1",
+      "    </>",
+      "  )",
+      "}",
+      "",
+      "export default $TM_FILENAME_BASE"
+    ],
+    "description": "Reactコンポーネントのテンプレート"
+  },
+
+}
